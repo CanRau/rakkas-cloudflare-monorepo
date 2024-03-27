@@ -1,0 +1,13 @@
+{
+  "name": "@konduktum/ui",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/models/login-session/hooks.ts",
+    "./models/login-session/hooks": "./src/models/login-session/hooks.ts"
+  },
+  "dependencies": {
+		"@tanstack/react-query": "5.17.9",
+		"rakkasjs": "0.7.0-next.45"
+  }
+}

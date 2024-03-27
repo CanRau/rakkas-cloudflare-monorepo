@@ -1,0 +1,18 @@
+{
+  "name": "rakkas-plugin-react-query",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./vite-plugin.ts": "./vite-plugin.ts",
+    "./client-hooks.tsx": "./client-hooks.tsx",
+    "./server-hooks.tsx": "./server-hooks.tsx"
+  },
+  "devDependencies": {
+		"devalue": "4.3.2",
+    "rakkasjs": "0.7.0-next.45",
+    "vite": "5.1.3"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.17.9"
+  }
+}
